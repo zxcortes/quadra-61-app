@@ -79,12 +79,11 @@ O **Quadra 61** foi projetado para ter **custo zero de infraestrutura**, alta pe
 - [ ] **Animações do Mascote:** Integração de vídeos/Lottie para os 5 estados da capivara.
 
 ---
-
 ## 👤 Autor
 
 **Arão Côrtes**  
 Estudante de Administração & Inteligência Artificial / Machine Learning  
 
-- **LinkedIn:** [Seu LinkedIn](www.linkedin.com/in/arao-cortes)
+- **LinkedIn:** [linkedin.com/in/arao-cortes](https://www.linkedin.com/in/arao-cortes)
 - **GitHub:** [@zxcortes](https://github.com/zxcortes)
-- **Email:** [@zxcortes](araoalmeida511@gmail.com)
+- **E-mail:** [araoalmeida511@gmail.com](mailto:araoalmeida511@gmail.com)
