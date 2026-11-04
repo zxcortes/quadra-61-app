@@ -18,8 +18,50 @@ O **Quadra 61** é uma aplicação web progressiva (PWA) de controle financeiro 
 
 Focado na usabilidade mobile de ritmo rápido, o aplicativo permite lançamentos em poucos toques com uma arquitetura **100% Serverless e de custo zero de infraestrutura**, alimentando uma base de dados estruturada pronta para **Business Intelligence (BI)** em tempo real.
 
+---
+
+## ✨ Funcionalidades Principais
+
+### 🔑 Acesso Rápido & Sem Senha (Passwordless)
+- **Autenticação OTP:** O utilizador insere o e-mail e recebe um código temporário formatado com a identidade visual do **Quadra 61**.
+- **Sessão Persistente:** Após o primeiro acesso com o nome, os acessos seguintes são diretos.
+- **Isolamento Multi-tenant:** Cada utilizador possui o seu próprio identificador e acede apenas aos seus lançamentos.
+
+### ⚡ Lançamento Inteligente em Poucos Toques
+- **Alternância de Contexto:** Escolha rápida entre **Empresa (CNPJ - ícone de prédio)** e **Pessoal (CPF - ícone de pessoa)**, com esquemas de cores distintos para evitar confusões.
+- **Categorização Dinâmica:** Botão de acesso rápido com as 5 categorias mais utilizadas visíveis de imediato (priorizando as criadas pelo utilizador).
+- **Divisão Automática de Pagamentos:**
+  - Opções: *Já paguei*, *Vou pagar* ou *Parte agora*.
+  - Ao escolher pagamento parcial, o app calcula a entrada e gera automaticamente o parcelamento do valor restante.
+
+### 🦫 Mascote Gamificado (Capivara)
+- **Feedback Financeiro Emocional:** A capivara muda de expressão e animação de acordo com o resultado do período em 5 estados: *Pobre, Apertada, Neutra, Tranquila e Rica*.
+- **Personalização:** Possibilidade de escolher entre versão feminina, masculina ou ocultar o mascote.
+
+### 📱 Experiência Mobile & Interface
+- **Instalação PWA:** Adicione à tela inicial do telemóvel para funcionar como um aplicativo nativo.
+- **Modos de Visualização:** Suporte completo a Modo Claro (*Light Mode*) e Modo Escuro (*Dark Mode*).
+
 ### 🎯 Destaques do Projeto
 - 🔒 **Isolamento de Contas:** Separação visual e lógica completa entre CPF e CNPJ.
 - ⚡ **Alta Velocidade:** Fluxo de lançamento otimizado para celulares sem telas desnecessárias.
 - 💰 **Custo Zero:** Infraestrutura rodando totalmente em soluções gratuitas e escaláveis.
 - 📈 **Pronto para Analytics:** Dados armazenados de forma relacional para consumo direto em dashboards (Power BI / Looker Studio).
+
+- ---
+
+## 🏗️ Arquitetura & Engenharia de Dados
+
+O **Quadra 61** foi projetado para ter **custo zero de infraestrutura**, alta performance em conexões móveis e facilidade de integração com ferramentas de análise.
+
+```text
+[ Cliente (PWA / Mobile) ]
+           │
+           ▼  (HTTPS / Host Vercel)
+[ Frontend Web ] ───(Chave Assinada + OTP)───► [ Google Apps Script (Backend API) ]
+                                                            │
+                                                            ▼
+                                                [ Google Sheets (Database) ]
+                                                            │
+                                                            ▼
+                                              [ Camada BI (Power BI / Looker) ]
