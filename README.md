@@ -85,5 +85,6 @@ O **Quadra 61** foi projetado para ter **custo zero de infraestrutura**, alta pe
 **Arão Côrtes**  
 Estudante de Administração & Inteligência Artificial / Machine Learning  
 
-- **LinkedIn:** [Seu LinkedIn](https://linkedin.com/in/seu-perfil)
+- **LinkedIn:** [Seu LinkedIn](www.linkedin.com/in/arao-cortes)
 - **GitHub:** [@zxcortes](https://github.com/zxcortes)
+- **Email:** [@zxcortes](araoalmeida511@gmail.com)
