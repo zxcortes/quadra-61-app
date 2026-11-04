@@ -81,17 +81,9 @@ Focado na usabilidade mobile de ritmo rápido, o aplicativo permite lançamentos
 
 O **Quadra 61** foi projetado para ter **custo zero de infraestrutura**, alta performance em conexões móveis e facilidade de integração com ferramentas de análise.
 
-```text
-[ Cliente (PWA / Mobile) ]
-           │
-           ▼  (HTTPS / Host Vercel)
-[ Frontend Web ] ───(Chave Assinada + OTP)───► [ Google Apps Script (Backend API) ]
-                                                            │
-                                                            ▼
-                                                [ Google Sheets (Database) ]
-                                                            │
-                                                            ▼
-                                              [ Camada BI (Power BI / Looker) ]
+<p align="center">
+  <img src="assets/quadra61_arquitetura_pwa.png" alt="Arquitetura PWA Quadra 61" width="700" />
+</p>
 ```
 ### 🧱 Pilares da Infraestrutura
 - **Frontend & PWA:** Hospedado na **Vercel**, garantindo entrega rápida e suporte a instalação na tela principal do celular.
