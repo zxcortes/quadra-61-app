@@ -59,9 +59,31 @@ O **Quadra 61** foi projetado para ter **custo zero de infraestrutura**, alta pe
            │
            ▼  (HTTPS / Host Vercel)
 [ Frontend Web ] ───(Chave Assinada + OTP)───► [ Google Apps Script (Backend API) ]
+
+
                                                             │
                                                             ▼
                                                 [ Google Sheets (Database) ]
                                                             │
                                                             ▼
                                               [ Camada BI (Power BI / Looker) ]
+```
+---
+
+## 🛣️ Roadmap & Próximos Passos
+
+- [x] Autenticação *passwordless* via e-mail (OTP)
+- [x] Separação nativa de contextos CPF e CNPJ
+- [x] Cálculo e geração automática de parcelas
+- [ ] **Otimização de Ícones Android:** Ajuste de resoluções no *manifest* para maior nitidez na ecrã inicial do Android.
+- [ ] **Animações do Mascote:** Integração de vídeos/Lottie para os 5 estados da capivara.
+
+---
+
+## 👤 Autor
+
+**Arão Côrtes**  
+Estudante de Administração & Inteligência Artificial / Machine Learning  
+
+- **LinkedIn:** [Seu LinkedIn](https://linkedin.com/in/seu-perfil)
+- **GitHub:** [@zxcortes](https://github.com/zxcortes)
