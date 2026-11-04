@@ -39,7 +39,7 @@ Focado na usabilidade mobile de ritmo rápido, o aplicativo permite lançamentos
 </p>
 
 <p align="center">
-  <img src="assets/Lancamentos_1.png" alt="Registro de Lançamento" width="280" />
+  <img src="assets/Layout_inicial_03.png" alt="Layout Geral do App" width="280" />
   <img src="assets/Lancamentos_2.png" alt="Seleção de Categorias e Parcelas" width="280" />
 </p>
 
