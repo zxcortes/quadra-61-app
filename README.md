@@ -48,6 +48,33 @@ Focado na usabilidade mobile de ritmo rápido, o aplicativo permite lançamentos
   <img src="assets/mascote_02.png" alt="Mascote Capivara Estado 2" width="280" />
 </p>
 
+## 📸 Demonstração Visual
+
+<p align="center">
+  <a href="https://youtu.be/zQZcDq_TAGE" target="_blank">
+    <img src="https://img.shields.io/badge/▶️_Assistir_Demonstração_Completa_(3_min)-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Assistir no YouTube" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="assets/loading_01.png" alt="Tela de Entrada" width="280" />
+  <img src="assets/Email_cod_login.png" alt="Autenticação OTP por E-mail" width="280" />
+</p>
+
+<p align="center">
+  <img src="assets/tela_Inicial_01.png" alt="Dashboard Inicial" width="280" />
+  <img src="assets/tela_inicial_02.jpg" alt="Visão Consolidada" width="280" />
+</p>
+
+<p align="center">
+  <img src="assets/Layout_inicial_03.png" alt="Layout Geral do App" width="280" />
+  <img src="assets/Lancamentos_2.png" alt="Seleção de Categorias e Parcelas" width="280" />
+</p>
+
+<p align="center">
+  <img src="assets/mascote_01.png" alt="Mascote Capivara Estado 1" width="280" />
+  <img src="assets/mascote_02.png" alt="Mascote Capivara Estado 2" width="280" />
+</p>
 ---
 
 ## ✨ Funcionalidades Principais
