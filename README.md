@@ -18,7 +18,7 @@ O **Quadra 61** é uma aplicação web progressiva (PWA) de controle financeiro 
 
 Focado na usabilidade mobile de ritmo rápido, o aplicativo permite lançamentos em poucos toques com uma arquitetura **100% Serverless e de custo zero de infraestrutura**, alimentando uma base de dados estruturada pronta para **Business Intelligence (BI)** em tempo real.
 
-### 🎯 Destaques do Projeto
+### 🎯 Destaques do Projeto --
 - 🔒 **Isolamento de Contas:** Separação visual e lógica completa entre CPF e CNPJ.
 - ⚡ **Alta Velocidade:** Fluxo de lançamento otimizado para celulares sem telas desnecessárias.
 - 💰 **Custo Zero:** Infraestrutura rodando totalmente em soluções gratuitas e escaláveis.
